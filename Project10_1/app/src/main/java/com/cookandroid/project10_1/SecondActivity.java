@@ -1,11 +1,9 @@
-package com.example.projectpractice10_1;
+package com.cookandroid.project10_1;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-
-import com.example.project10_1.R;
 
 public class SecondActivity extends Activity {
     @Override

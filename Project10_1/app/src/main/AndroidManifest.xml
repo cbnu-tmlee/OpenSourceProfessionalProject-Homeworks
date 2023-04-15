@@ -9,21 +9,18 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/Theme.ProjectPractice10_1"
+        android:theme="@style/Theme.Project101"
         tools:targetApi="31">
-        <activity android:name=".SecondActivity"
-            android:label="Second 액티비티"/>
         <activity
             android:name=".MainActivity"
-            android:exported="true"
-            android:label="@string/app_name"
-            android:theme="@style/Theme.ProjectPractice10_1.NoActionBar">
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".SecondActivity" />
     </application>
 
 </manifest>
